@@ -46,5 +46,14 @@ console.log(texto2.slice(12,16));
 //length
 let frase= "O cidade é o melhor professor do mundo!";
 console.log(frase.length)
-alert(frase.length)
+//alert(frase.length)
 document.write(frase.length)
+
+//Concatenação
+document.write("<br>")
+let nome1 ="Calçada"
+document.write("Professor " + nome1)
+let nome2 ="Fiap"
+document.write("<br>")
+document.write("A Faculdade " +nome2+ "!!!!")
+ 
