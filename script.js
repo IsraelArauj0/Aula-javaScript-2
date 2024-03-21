@@ -1,4 +1,16 @@
-/*DECLARANDO VARIAVEIS*/
+/*
+
+
+
+
+
+
+
+
+
+
+
+//DECLARANDO VARIAVEIS
 
 //Indefinida
 let nome;
@@ -56,4 +68,37 @@ document.write("Professor " + nome1)
 let nome2 ="Fiap"
 document.write("<br>")
 document.write("A Faculdade " +nome2+ "!!!!")
- 
+*/
+
+//Estruuras condicionais
+if(10>8){
+    document.write("Verdadeiro")
+}
+document.write("<br>")
+if(8>10){
+    document.write("10 é maior que 8")
+}
+else{
+    document.write("10 não é maior que 8")
+}
+
+let valor =10
+
+if(valor>7){
+    document.write("valor maior")
+
+}
+document.write("<br>")
+
+
+let idade = 18; 
+if(idade<=12){
+    document.write("é uma criança")
+}
+else if(idade <= 17){
+    document.write("é um aborrencente")
+}
+else if(idade <= 29){
+    document.write("adulto")
+
+}
