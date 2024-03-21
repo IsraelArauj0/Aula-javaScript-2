@@ -28,3 +28,23 @@ let numero3 =123.456;
 let num = numero3.toString()
 let verificar = typeof num;
 console.log(verificar)
+
+//Manipulação com metodos
+//indexOf()
+let texto ="As CPs estão chegando";
+console.log(texto.indexOf("ão"))
+
+//lastindexOf()
+
+let texto1 ="Vocês vão tirar notas boas";
+console.log(texto1.lastIndexOf("ra"))
+
+//slice
+let texto2 ="Corinthians pior time do mundo";
+console.log(texto2.slice(12,16));
+
+//length
+let frase= "O cidade é o melhor professor do mundo!";
+console.log(frase.length)
+alert(frase.length)
+document.write(frase.length)
